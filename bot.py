@@ -25,7 +25,7 @@ async def start(_, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Dev", url="https://t.me/Infinity_Bots"),
+                                            "Dev", url="https://t.me/alanonymou"),
                                         InlineKeyboardButton(
                                             "Source", url="https://github.com/nithyadevindi/Ndsongbot")
                                     ]]
