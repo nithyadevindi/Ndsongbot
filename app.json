@@ -1,0 +1,35 @@
+{
+    "name": "Song downloader bot",
+    "description": "A bot that can download songs.",
+    "logo": "https://telegra.ph/file/7e9170d4216046f4c3890.jpg",
+    "keywords": [
+        "NdSongBot",
+        "Song Downloader",
+        "Telegram Bot",
+        "JE Bots"
+    ],
+    "website": "https://nithya.com",
+    "repository": "https://github.com/nithyadevindi/Ndsongbot",
+    "success_url": "https://t.me/alanonymou",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
