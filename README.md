@@ -2,7 +2,7 @@
 
 A telegram bot that can download high quality songs from YouTube music
 
-Reach me on Telegram [Song Bot 🎵](http://t.me/vssongdownloaderbot)
+Reach me on Telegram [Song Bot 🎵](http://t.me/njnkjbot)
 
 ## Features
 
